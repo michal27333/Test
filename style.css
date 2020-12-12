@@ -1,5 +1,46 @@
-body
+body, html
 {
-background-color: #101010;
-color: white;
+    margin: 0;
+    height: 100%;
+    background-color: #9c9494;
+}
+
+
+.header
+{
+    display: block;
+    width: 30%;
+    height: 100%;
+    color: white;
+    float: left;
+    background: rgb(43,43, 43) url("bg/bg0.jpg") no-repeat 37% 60% / auto auto  border-box border-box;
+}
+.footer
+{
+    background-color:#612412;
+    width: 100%;
+    height: 60px;
+}
+.header .socials
+{
+    display: flex;
+    flex-wrap: wrap ;
+    
+}
+.header .socials a
+{   
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: red ;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    inline-size: ;
+}
+.menu a
+{
+    text-decoration: none;
+    color: rgb(219, 126, 49);
 }
