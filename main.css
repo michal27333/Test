@@ -195,6 +195,34 @@ color:#AD3A36;
     color: #c33a30 ;
     margin: 0px 20px 0px 20px;
 }
+.contener .content h3 span , .contener .content h4 span
+{
+    color:#FFEB01
+}
+.contener .content h5 , .contener .content .post .postheadline h5 
+{
+    color:  rgb(70, 70, 70) ;
+}
+.contener .content .ikon
+{
+    float: left;
+    width: 50px;
+}
+.contener .content .ME
+{
+    width: 300px;
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+}
+.contener .content h5 i.fa.fa-calendar , .contener .content .post .postheadline h5 i.fa.fa-calendar
+{
+    font-size: 0.9em;
+}
+.contener .content h5 i.fa.clock-o , .contener .content .post .postheadline h5 i.fa.clock-o
+{
+font-size:1em
+}
 .contener .ribon a:hover , .post > .readmore:hover , .contener .content a:hover
 {
     color:#FC7D24;
@@ -247,6 +275,9 @@ text-indent: 20px;
 {
     display: block;
     margin: 0 auto 0 auto;
+    border-radius: 5px;
+    width: 100%;
+
 }
  .post > .readmore
 {
@@ -272,4 +303,8 @@ text-indent: 20px;
     padding: 20px;
     color: #FC7D24;
     margin-left: 100px;
+}
+.footer .logotyp h4 span , .footer .logotyp h5 span
+{
+    color:#AD3A36
 }
